@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>My Portfolio</title>
+  <base href="/">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+  
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+ <script>
+   function myFunction() {
+  var dots = document.getElementById("dots");
+  var moreText = document.getElementById("more");
+  var btnText = document.getElementById("button");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "Read more"; 
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "Read less"; 
+    moreText.style.display = "inline";
+  }
+}
+ </script> 
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <div class="header">
+    
+    <ul>
+      <li>
+          <img src="assets/newlogo.png" >
+      </li> 
+    <li >
+      <a href="index.html" >home</a>
+    </li>
+    <li >
+      <a href="about.html" >about</a>
+    </li>
+    <li >
+      <a href="portfolio.html">portfolio&nbsp;</a>
+    </li>
+    <li >
+      <a href="contact.html">&nbsp;&nbsp;contact&nbsp;&nbsp;</a>
+    </li>
+  </ul>
+  </div>
+    </div>
+
+    <div class="card"> 
+      <div class="card-img-overlay">
+        <br>
+        <div class="col-sm-6 special-card mx-auto text-white">
+            <div class="card-header">
+              <h2>About me</h2>
+            </div>
+      
+
+
+            <div class="card-body">
+              Being a student, I keep trying to explore new technologies and try to stay familiarised to this cruising world. I've thus used the wee bit of knowledge I possess to create wesbites, IoT projects, android applications. If you want to know more about my life, click on read more<span id="dots">.</span><span id="more">
+              <br>
+              <br>
+              Being born and brought up in Warangal district of Telangana, my schooling happened in CBSE school in the same district. During my school years, i possessed keen interest towards mathematics and always excelled in it. My interests always seemed to be around mathematics and thus decided to pursue my career with in the same field and chose to become a software engineer which would keep me updated to atleast a modicum of this growing world and also have my favourite mathematics hidden in the coding.
+              <br>
+              <br>
+              <center><img src="assets/me.jpg" width="220px" height="300px"></center>
+              <br>
+              Once, I've started by bachelor's degree I realised, there are way toomany technologies one can use and pursue in. After trying a few of these wonderful things, Application development has really helped me explore myself more and more. There's alot more to acheive and explore, as of now my experiences are thus limited. But I'll keep you all posted.  </span>
+             <br>
+             <button onclick="myFunction()" id="button" class="button">Read more</button>
+              </div>      
+          </div>
+        </div>
+    </div>
+      </div>
+    </div>
+    <br>
+</body>
+
